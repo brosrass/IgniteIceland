@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ignite Iceland</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    .brand-gradient {
+      background: linear-gradient(90deg, rgba(255, 183, 77, 1) 0%, rgba(255, 138, 101, 1) 100%);
+    }
+    .hero-background {
+      background-image: url('markus-spiske.jpg'); /* Ensure correct URL */
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="font-inter">
+  <header class="brand-gradient">
+    <nav class="flex justify-between items-center p-4 text-white">
+      <a href="#" class="text-xl font-bold">IGNITE BY Iceland</a>
+      <div class="flex gap-6">
+        <a href="#" class="hover:text-gray-300">Our offer</a>
+        <a href="#" class="hover:text-gray-300">Events</a>
+        <a href="#" class="hover:text-gray-300">News</a>
+        <a href="#" class="hover:text-gray-300">About & Contact</a>
+        <a href="#" class="py-2 px-4 bg-white text-gray-800 rounded-full hover:bg-gray-100">Sign in</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- New Section with Large Background Picture and Text Overlay -->
+  <section class="hero-background h-screen flex items-center justify-center text-white text-center">
+    <div>
+      <h1 class="text-6xl font-bold mb-4">Empowering Innovation</h1>
+      <p class="text-xl">Connecting startups and corporates for a brighter future.</p>
+    </div>
+  </section>
+
+  <!-- Main content -->
+  <main>
+    <!-- Section with orange circle and content -->
+    <section class="relative pb-20"> <!-- Added padding-bottom to ensure space between sections -->
+      <div class="absolute top-0 left-0 w-2/3 h-screen bg-orange-200"></div>
+      <div class="absolute top-0 left-1/4 w-3/4 h-screen bg-orange-100"></div>
+      <div class="container mx-auto px-6 py-12">
+        <div class="flex justify-between items-center">
+          <div class="space-y-12">
+            <h1 class="text-6xl font-bold text-gray-800">Startups</h1>
+            <h1 class="text-6xl font-bold text-gray-800">Corporates</h1>
+            <h1 class="text-6xl font-bold text-gray-800">Incubators</h1>
+            <h1 class="text-6xl font-bold text-gray-800">Public Sector</h1>
+          </div>
+          <div class="w-1/2">
+            <img src="Corporate1.png" alt="Image description" class="rounded-lg shadow-lg"> <!-- Ensure correct image path -->
+          </div>
+        </div>
+      </div>
+      <div class="absolute top-0 right-0 w-1/2 h-1/2 bg-orange-300 rounded-full"></div>
+    </section>
+
+      <!-- Mission statement section -->
+      <section class="bg-white py-12">
+        <div class="container mx-auto px-6">
+          <div class="text-gray-800">
+            <h2 class="text-5xl font-bold mb-8">The Ignite Mission</h2>
+            <p class="text-xl mb-4">
+              At Ignite Iceland, our purpose is clear: we're here to bridge the gap for Swedish startups striving to secure their inaugural major client, propelling their growth. The realm of startups is rich with solutions for the myriad problems faced by both private and public sectors. Yet, the challenge often lies in making these crucial connections.
+            </p>
+            <p class="text-xl mb-4">
+              Ignite Iceland stands as a beacon for collaboration, a non-profit initiative dedicated to weaving a stronger network between the burgeoning startup ecosystem, seasoned corporations, and governmental bodies. Our goal is to foster meaningful commercial partnerships.
+            </p>
+            <p class="text-xl">
+              Our approach? By meticulously pairing startups with the ideal counterpart within organizations based on specific needs and hurdles, we pave the way for impactful first engagements. We also provide tailored support ahead of these pivotal meetings, ensuring discussions are fruitful and pave the way for lasting business relationships.
+            </p>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Statistics section -->
+          <section class="bg-pink-700 py-12 text-white">
+        <div class="container mx-auto px-6">
+          <h2 class="text-5xl font-bold mb-8">Ignite Iceland in Numbers</h2>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div class="text-center">
+              <p class="text-4xl font-bold">100</p>
+              <p class="text-xl">Meetings since January 2024</p>
+            </div>
+            <div class="text-center">
+              <p class="text-4xl font-bold">100</p>
+              <p class="text-xl">Startups engaged</p>
+            </div>
+            <div class="text-center">
+              <p class="text-4xl font-bold">100</p>
+              <p class="text-xl">Corporates</p>
+            </div>
+            <div class="text-center">
+              <p class="text-4xl font-bold">100</p>
+              <p class="text-xl">Public organizations</p>
+            </div>
+          </div>
+        </div>
+          </section>
+  
+      <!-- Footer section -->
+      <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+          <div class="flex justify-between">
+            <div>
+              <h3 class="text-xl font-bold mb-4">About Ignite Iceland</h3>
+              <p class="mb-4">
+                Ignite Iceland is a pioneering non-profit initiative designed to catalyze innovation by connecting startups with established companies and public organizations. Our mission is to foster meaningful collaborations that drive progress and creativity. By creating a vibrant network of diverse partners, we open doors to new opportunities and transformative projects.
+              </p>
+              <p class="mb-4">Ignite Iceland - A part of XXXXXX</p>
+              <p>Reach out! info@igniteiceland.is</p>
+            </div>
+            <div>
+              <!-- Links and contact information -->
+            </div>
+          </div>
+          <!-- Partners and social media links -->
+          <!-- Additional content goes here -->
+        </div>
+      </footer>
+  </body>
+  </html>
